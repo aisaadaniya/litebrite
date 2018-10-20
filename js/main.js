@@ -33,6 +33,11 @@ function main() {
     }
   }
 });
+
+  $('.reset').on('click', function() {
+    window.location.reload();
+  });
+
 }
 
 $(document).ready(main);
